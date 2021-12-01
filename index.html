@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEditate</title>
+    <link
+      href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="./assets/Logo.png" width="60px" height="60px" alt="meditate-logo" uk-img />
+        <div class="header-content">
+          <div class="header-info">
+            <h2>To much noise in headspace?</h2>
+            <h1>Be the first to MEDITATE.</h1>
+            <h3>
+              Select time, background sound, lector's voice and create your meditation from
+              available audio guidance elements.
+            </h3>
+            <h3>Design your own peace and MEDITATE</h3>
+            <p>Be the first to try it!</p>
+            <form class="form">
+              <input class="input" placeholder="E-mail" type="email" />
+              <button class="submit-button">Submit</button>
+            </form>
+          </div>
+          <div class="header-photos">
+            <div class="header-phone">
+              <div
+                class="uk-position-relative uk-visible-toggle uk-light header-phone-container"
+                tabindex="-1"
+                uk-slideshow="autoplay: true"
+              >
+                <ul class="uk-slideshow-items">
+                  <li>
+                    <img src="./assets/phone1.png" alt="" uk-cover />
+                  </li>
+                  <li>
+                    <img src="./assets/phone2.png" alt="" uk-cover />
+                  </li>
+                  <li>
+                    <img src="./assets/phone3.png" alt="" uk-cover />
+                  </li>
+                  <li>
+                    <img src="./assets/phone4.png" alt="" uk-cover />
+                  </li>
+                  <li>
+                    <img src="./assets/phone5.png" alt="" uk-cover />
+                  </li>
+                  <li>
+                    <img src="./assets/phone6.png" alt="" uk-cover />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="users">
+        <div class="single-user">
+          <img src="./assets/Ellipse 1.png" width="200px" height="200px" alt="user1" />
+          <blockquote>
+            <p>
+              "... however, as for a paid (and quite a lot) application, I would expect offline
+              access to meditation, or the ability to download my favorites ..."
+            </p>
+            <cite>Sarah // <span>Headspace user</span></cite
+            >:
+          </blockquote>
+        </div>
+        <div class="single-user">
+          <img src="./assets/Ellipse 1 (1).png" width="200px" height="200px" alt="user1" />
+          <blockquote>
+            <p>
+              "... I would use the app if there was a monthly subscription. Purchase of an annual
+              plan far exceeds my budget for similar entertainment. "
+            </p>
+            <cite>Daniel // <span>Calm user</span></cite
+            >:
+          </blockquote>
+        </div>
+        <div class="single-user">
+          <img src="./assets/Ellipse 1 (2).png" width="200px" height="200px" alt="user1" />
+          <blockquote>
+            <p>
+              "Starting with the quality of the sound, through the tone of the voice of all the
+              speakers I haven't found anything in this app to keep me big. "
+            </p>
+            <cite>Andrea // <span>Insight Timer user</span></cite
+            >:
+          </blockquote>
+        </div>
+      </section>
+      <footer>
+        <p class="privacyPolicy"><a href="#"> Privacy policy</a></p>
+      </footer>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+      <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+      <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+      <script src="./index.js" type="module"></script>
+    </div>
+  </body>
+</html>
