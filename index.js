@@ -18,7 +18,6 @@ const input = document.querySelector('.input');
 form.addEventListener('submit', e => {
   e.preventDefault();
   const email = input.value;
-  console.log(email);
   createMeditation(email);
 });
 
